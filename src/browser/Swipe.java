@@ -64,10 +64,10 @@ public class Swipe {
 		driver.executeScript("mobile:shell",ImmutableMap.of("command","input swipe"+x1+" "+y1+" "+x2+" "+y2));
 		
 		}
-		driver.openNotifications();
-		driver.findElement(MobileBy.AccessibilityId("Airplane mode")).click();
-		driver.findElement(MobileBy.AndroidUIAutomator("UiSelector().text(\"Gmail\")")).click();
-		driver.pressKey(new KeyEvent(AndroidKey.BACK));
+//		driver.openNotifications();
+//		driver.findElement(MobileBy.AccessibilityId("Airplane mode")).click();
+//		driver.findElement(MobileBy.AndroidUIAutomator("UiSelector().text(\"Gmail\")")).click();
+//		driver.pressKey(new KeyEvent(AndroidKey.BACK));
 		
 	}
 		
